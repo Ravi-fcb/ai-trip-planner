@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3001;
 
 // Middlewares
 app.use(cors({
-  origin: ["http://localhost:5173", "http://localhost:3000"],
+  origin: ["http://localhost:5173", "http://localhost:3000", "https://ai-trip-planner-eight-theta.vercel.app"],
   credentials: true
 }));
 app.use(express.json());

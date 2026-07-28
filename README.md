@@ -12,18 +12,7 @@ This project was built as part of a Frontend Internship Assignment with a focus 
 https://ai-trip-planner-eight-theta.vercel.app
 
 ### Backend
-https://YOUR_RENDER_BACKEND_URL.onrender.com
-
-> Replace the backend URL above with your actual Render deployment URL.
-
-
-# 📸 Screenshots
-
-> Add screenshots of:
-- Home Page
-- Generated Itinerary
-- Refinement Feature
-- Dark Mode
+https://ai-trip-planner-backend-ve4g.onrender.com
 
 
 # ✨ Features
@@ -219,7 +208,7 @@ If given additional time, I would add:
 
 # ⏱️ Time Spent
 
-Approximately **4–5 hours**.
+Approximately **6-7 hours**.
 
 
 # 👨‍💻 Author

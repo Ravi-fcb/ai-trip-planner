@@ -5,6 +5,7 @@ import ItineraryView from "./components/ItineraryView";
 import SavedTripsList from "./components/SavedTripsList";
 import SkeletonLoader from "./components/SkeletonLoader";
 import ErrorMessage from "./components/ErrorMessage";
+const API_URL = import.meta.env.VITE_API_URL;
 
 function App() {
   const [itinerary, setItinerary] = useState(null);
@@ -108,7 +109,7 @@ function App() {
     activeRequestIdRef.current = requestId;
 
     try {
-      const response = await fetch("http://localhost:3001/api/plan-trip", {
+      const response = await fetch(`${API_URL}/api/plan-trip`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -149,7 +150,7 @@ function App() {
     activeRequestIdRef.current = requestId;
 
     try {
-      const response = await fetch("http://localhost:3001/api/refine-trip", {
+      const response = await fetch(`${API_URL}/api/refine-trip`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
